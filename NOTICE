@@ -1,0 +1,21 @@
+analog-postlayout-verify
+Post-layout verification scripts for an Operational Amplifier (OPA) and a
+Bandgap Reference (BGR), driven by Cadence Spectre and Mentor Calibre.
+
+Copyright 2026 GuoJiacheng.
+
+This product is licensed under the Apache License, Version 2.0 (the
+"License"). A copy of the License is included in the LICENSE file at the
+root of this repository, and is also available at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Origin
+------
+These scripts were originally written by the author for personal use
+during the course project of "Principles and Design of Analog Integrated
+Circuits" (《模拟集成电路原理与设计》), and are released here to help
+other students complete their own post-layout verification more quickly.
+The code has since been generalized so that it no longer depends on a
+specific course, server, or PDK install path; all site-specific values
+are supplied through `configs/*.json`.
